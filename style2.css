@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai';
+}
+.container::before{
+    content: "";
+    background: url("img/NIT-warangal.jpeg")no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+.container{
+    display: flex;
+}
+.login{
+    /* border: 2px solid red; */
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+#heading1{
+    /* border: 2px solid red; */
+    position: relative;
+    text-align:  center;
+    width: 600px;
+    margin-left: 600px;
+    margin-top: 150px;
+    font-size: 28px;
+    /* height: 600px;
+    align-items: center;
+    justify-content: center; */
+}
+.formgroup{
+    padding: 10px;
+    margin: 2px;
+}
+.formgroup input{
+    border: 2px solid rgb(78, 77, 77);
+    padding: 8px;
+    border-radius: 10px;
+    width: 254px;
+    text-align: center;
+    font-size: 22px;
+}
+.btn{
+    font-family: 'Baloo Bhai';font-size: 22px;
+    margin: 0px 10px;
+    color: white;
+    background-color: rgb(73, 72, 72);
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 254px;
+    margin-left: 125px;
+    
+}
+.formgroup label{
+    font-family: 'Baloo Bhai';font-size: 22px;    
+}
